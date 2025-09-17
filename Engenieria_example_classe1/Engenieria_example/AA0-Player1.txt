@@ -1,0 +1,6 @@
+{"Player": {
+	"name": "a",
+	"hp": "50",
+	"atk": "20",
+	"friendly": "true"
+}}
