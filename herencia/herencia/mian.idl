@@ -1,0 +1,9 @@
+namespace herencia
+{
+    [default_interface]
+    runtimeclass mian : Windows.UI.Xaml.Controls.Page
+    {
+        mian();
+        Int32 MyProperty;
+    }
+}
