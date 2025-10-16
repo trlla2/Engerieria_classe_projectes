@@ -167,6 +167,35 @@
             <mxPoint x="-3" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-48" value="SceneManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-49" value="&lt;div&gt;- scenes : std::map&amp;lt;std::string, scenes&lt;/div&gt;&lt;div&gt;- currentScene: Scene*&lt;/div&gt;&lt;div&gt;- gamedata: GameData*&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QiBe78MMTdFN1uECVMTB-48">
+          <mxGeometry y="26" width="230" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QiBe78MMTdFN1uECVMTB-48">
+          <mxGeometry y="80" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-51" value="+ SceneManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QiBe78MMTdFN1uECVMTB-48">
+          <mxGeometry y="88" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-52" value="&lt;div&gt;+ ~SceneManager()&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ init(): void&lt;/div&gt;&lt;div&gt;+ Draw(): void&lt;/div&gt;&lt;div&gt;+ Update: void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QiBe78MMTdFN1uECVMTB-48">
+          <mxGeometry y="114" width="230" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;startArrow=diamondThin;startFill=1;" edge="1" parent="1" source="QiBe78MMTdFN1uECVMTB-48" target="QiBe78MMTdFN1uECVMTB-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="330" />
+              <mxPoint x="576" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-54" value="&lt;div&gt;Map&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="30" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QiBe78MMTdFN1uECVMTB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="QiBe78MMTdFN1uECVMTB-48" target="QiBe78MMTdFN1uECVMTB-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
