@@ -1,5 +1,6 @@
 #pragma once
 #include <map>
+#include <cassert>
 
 #include "Scene.h"
 #include "GameData.h"
@@ -8,6 +9,7 @@
 #include "ConfigScene.h"
 #include "GameScene.h"
 #include "MenuScene.h"
+
 
 class SceneManager
 {

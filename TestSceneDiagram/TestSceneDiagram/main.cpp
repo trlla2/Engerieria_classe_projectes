@@ -1,6 +1,5 @@
 
 #include <map>
-#include <cassert>
 #include "SceneManager.h"
 
 int main() {
